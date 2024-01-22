@@ -1,0 +1,93 @@
+@media screen and (max-width:1900px) {
+    .block__news__one {
+        width: auto;
+    }
+    .block__news__two__card {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .block__news__two__card__img {
+        width: 100%;
+    }
+    .block__news__two__card__img img{
+        background-size: cover;
+        width: 100%;
+    }
+}
+@media screen and (max-width:1650px) {
+    .header__block {
+        padding: 290px 7%;
+    }
+    .travel {
+        padding: 153px 12.5%;
+    }
+    .block__news__one {
+        display: block;
+    }
+    .block__news__one__container__one {
+        width: auto;
+    }
+    .block__news__one__container__two {
+        width: auto;
+    }
+    .block__news__one__container__two__card {
+        width: 50%;
+    }
+}
+@media screen and (max-width:1250px) {
+    .card {
+        width: 45%;
+    }
+    .destinations__block {
+        gap: 30px;
+        justify-content: flex-start;
+    }
+    .destinations__card {
+        width: 30%;
+    }
+    .news__category {
+        flex-wrap: nowrap;
+    }
+    .block__news {
+        display: block;
+    }
+    .block__news__one {
+        margin-bottom: 20px;
+    }
+    .block__news__two {
+        width: auto;
+    }
+    .block__news__one__container__two {
+        margin: 20px 0;
+    }
+    .block__news__two__card {
+        width: 45%;
+    }
+}
+@media screen and (max-width:800px) {
+    .destinations__card {
+        width: 45%;
+    }
+    .card {
+        width: 100%;
+    }
+    .news__category {
+        flex-wrap: wrap;
+        border-bottom: none;
+    }
+    .news__category a{
+        width: 100%;
+    }
+    .block__news__one__container__two__card {
+        width: 100%;
+    }
+    .block__news__two__card {
+        width: 90%;
+    }
+}
+@media screen and (max-width:550px) {
+    .destinations__card {
+        width: 100%;
+    }
+
+}

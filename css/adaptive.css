@@ -1,0 +1,112 @@
+@media screen and (max-width:2250px) {
+    .content__container__right__cover__autor__line  {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1650px) {
+    .content__card {
+        width: 45%;
+    }
+    .nav__list ul {
+        justify-content: center;
+    }
+   .content__container__right__button {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .bread__crumbs {
+        margin-bottom: 100px;
+    }
+    .nav {
+        flex-wrap: wrap;
+    }
+    .nav__logo {
+        width: 50%;
+    }
+    .nav__list {
+        order: 1;
+        width: 100%;
+        margin: 50px;
+    }
+    .nav__button {
+        width: 50%;
+    }
+    .header__card {
+        width: auto;
+    }
+    .section__content {
+        padding: 80px 12% 122px;
+        display: block;
+    }
+    .content__container {
+        width: auto;
+        margin-right: 0%;
+    }
+    .content__social {
+        display: none;
+    }
+    .content__container__right {
+        display: none;
+        width: auto;
+    }
+    .content__container__social a {
+        width: 50%;
+        padding: 10px 0;
+    }
+    .content__container__right__button {
+        font-size: 10px;
+    }
+    .content__container__form input{
+        width: 100%;
+    }
+    .content__container__form__checkbox input {
+        width: auto;
+    }
+    .content__container__form button{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .content__card {
+        width: 45%;
+    }
+    .nav__list ul {
+        justify-content: center;
+    }
+   .content__container__right__button {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .content__card {
+        width: 90%;
+    }
+}
+@media screen and (max-width:550px) {
+    .nav {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+    .nav__logo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .nav__logo a{
+        justify-content: center;
+    }
+    .nav__button {
+        width: 100%;
+    }
+    .nav__button__container {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .content__card {
+        width: 90%;
+    }
+}
